@@ -71,6 +71,7 @@ nav ul li a{
 
 .main_text .subtext{
     margin-top: 1rem;
+    flex: 1;
     font-size: 18px;
     color: var(--secondary-text-and-bg-color);
 }
@@ -95,10 +96,50 @@ nav ul li a{
     width: 450px;
     height: 200px;
     background-color: var(--secondary-text-and-bg-color);
-    display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0;
+    margin-right: 15px;
 }
 
 /* section */
+.information .title{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: var(--header-bg-color);
+    margin-top: 1rem;
+    margin-bottom: 30px;
+}
+
+.information .boxes{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 50px auto;
+    padding: 0 10%;
+    max-width: 1000px;
+}
+
+.information .info-item{
+    text-align: center; /* Centers text beneath the box */
+    flex-basis: 150px; /* Gives each item a base width */
+}
+
+.information .boxes .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 10px;
+    padding: 0;
+    cursor: default;
+    border: 4px solid var(--button-color);
+    border-radius: 12px;
+}
+
+.information .boxes p{
+    font-size: 16px;
+    color: #555;
+}
