@@ -4,7 +4,7 @@
     --header-bg-color: #1F2937;
     --main-text-and-logo-color: #F9FAF8;
     --button-color: #3882F6;
-    --secondary-text-color: #E5E7EB;
+    --secondary-text-and-bg-color: #E5E7EB;
 }
 
 * {
@@ -51,7 +51,7 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    color: var(--secondary-text-color);
+    color: var(--secondary-text-and-bg-color);
     font-size: 18px;
 }
 
@@ -59,12 +59,8 @@ nav ul li a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2% 5%;
+    padding: 80px 10%;
     margin: 0;
-}
-
-.hero_content .main_text{
-    padding-left: 80px;
 }
 
 .main_text h1{
@@ -74,14 +70,16 @@ nav ul li a{
 }
 
 .main_text .subtext{
+    margin-top: 1rem;
     font-size: 18px;
-    color: var(--secondary-text-color);
+    color: var(--secondary-text-and-bg-color);
 }
 
 .main_text .sign_up{
+    margin-top: 1rem;
     width: 200px;
     padding: 12px 20px;
-    border-radius: 20px;
+    border-radius: 8px;
     border-style: none;
     background-color: var(--button-color);
 }
@@ -89,4 +87,18 @@ nav ul li a{
 .sign_up a{
     text-decoration: none;
     color: var(--main-text-and-logo-color);
+    font-weight: 700;
 }
+
+.hero_content .hero_image{
+    display: flex;
+    width: 450px;
+    height: 200px;
+    background-color: var(--secondary-text-and-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+/* section */
