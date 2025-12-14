@@ -108,7 +108,7 @@ nav ul li a{
     font-size: 36px;
     font-weight: 900;
     color: var(--header-bg-color);
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     margin-bottom: 30px;
 }
 
@@ -147,6 +147,7 @@ nav ul li a{
 
 .quotes{
     background-color: var(--secondary-text-and-bg-color);
+    padding: 80px;
 }
 
 .quotes .quote_content{
@@ -154,7 +155,7 @@ nav ul li a{
     flex: 1;
     justify-content: center;
     align-items: center;
-    padding-top: 10px;
+    padding-top: 15px;
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
@@ -166,6 +167,7 @@ nav ul li a{
     justify-content: center;
     font-weight: 700;
     padding-left: 35rem;
+    padding-top: 2rem;
 }
 
 .call_to_action{
